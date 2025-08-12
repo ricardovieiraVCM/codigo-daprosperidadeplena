@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: #4b0082;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.social-icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+nav {
+  background: #eee;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+nav a {
+  color: #4b0082;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background: #ddd;
+}
+.banner {
+  background: url('https://via.placeholder.com/1200x400?text=Ricardo+Vieira') no-repeat center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  text-align: center;
+  padding: 0 20px;
+}
+section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 300px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #36005c;
+}
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+footer {
+  background: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .banner {
+    font-size: 1.5rem;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
