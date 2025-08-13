@@ -8,7 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background-image: url('banner-principal.png.png'); /* AQUI ESTÁ A MUDANÇA */
+    background-image: url('banner-principal.PNG.png'); /* AQUI ESTÁ A MUDANÇA */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -24,7 +24,7 @@ body {
 
 /* Estilos do Cabeçalho */
 .header {
-    background: url('fundo.png') no-repeat center center/cover;
+    background: url('fundo.PNG.png'); no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
