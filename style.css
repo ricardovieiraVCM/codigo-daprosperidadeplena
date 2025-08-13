@@ -28,8 +28,12 @@ body {
     color: #fff;
     text-align: center;
     padding: 100px 20px;
+    height: 100vh; /* Adicionado para ocupar a tela inteira */
+    display: flex; /* Adicionado para centralizar o conteúdo */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
 
 .header h1 {
     font-size: 3.5rem;
