@@ -24,7 +24,7 @@ body {
 
 /* Estilos do Cabeçalho */
 .header {
-    background: url('fundo.PNG.png'); no-repeat center center/cover;
+    background:linear-gradient(0,0,0,0.7), rgba(0,0,0,0.7)), url('fundo.PNG.png'); no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
