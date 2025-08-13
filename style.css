@@ -8,7 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background-image: url('http://googleusercontent.com/file_content/0');
+    background-image: url('fundo.png'); /* AQUI ESTÁ A MUDANÇA */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -24,10 +24,15 @@ body {
 
 /* Estilos do Cabeçalho */
 .header {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('http://googleusercontent.com/file_content/0') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('banner-principal.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
+    height: 100vh; /* Adicionado para ocupar a tela inteira */
+    display: flex; /* Adicionado para centralizar o conteúdo */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header h1 {
